@@ -1,4 +1,4 @@
-pub fn bubble_sort(input: [i32; 6]) -> [i32; 6] {
+pub fn bubble_sort(input: &Vec<i32>) -> Vec<i32> {
     let mut result = input.clone();
 
     for _ in 0..result.len() - 1 {

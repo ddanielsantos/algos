@@ -1,4 +1,4 @@
-pub fn selection_sort(input: [i32; 6]) -> [i32; 6] {
+pub fn selection_sort(input: &Vec<i32>) -> Vec<i32> {
     let mut result = input.clone();
     let size = result.len();
     let mut minimum = 0;
